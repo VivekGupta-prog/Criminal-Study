@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  margin: 10% auto;
+  padding: 50px 0;
+  text-align: center;
+}
+.container input{
+  font-size: 15px;
+}
+p{
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.63);;
+}
+p .registerpath{
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 200;
+  color:  rgba(58, 14, 218, 0.63);;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.63);
+}
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+form {
+  padding: 10px 0;
+  position: relative;
+}
+form input {
+  border: 1px solid rgba(35, 39, 35, 0.705);
+  background-color: white;
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+}
+
+form button {
+  appearance: none;
+  outline: 0;
+  background-color: #150485;
+  border: 2px;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.opening-heading{
+  position: absolute;
+  top: 32%;
+  left: 1%;
+  color: #150485;
+  text-align: left;
+  font-size: 8vh;
+  line-height: 1;
+  font-weight: bold;
+  font-family: "McLaren", cursive;
+}
+.opening-heading-box{
+  width: 65%;
+  height: 70vh;
+  top: 17%;
+  right: 2%;
+  position: absolute;
+}
+.open-container{
+  background-color: black;
+  width: 21%;
+  height: 42vh;
+  top: 29.5%;
+  left: 7.5%;
+  border-radius: 50%;
+  position: fixed;
+  border: 1px solid rgba(48, 204, 33, 0.911);
+  box-shadow: 0 0 100px 20px rgba(26, 92, 192, 0.856);
+}
+.circle-image{
+  width: 30%;
+  top: 30%;
+  left: 3%;
+  display: block;
+  position: fixed;
+  object-fit: cover;
+  object-position: center center;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+@-webkit-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+
+.registration-container {
+  margin: 0 auto;
+  padding: 70px 0;
+  text-align: center;
+}
+.registration-container input{
+  font-size: 16px;
+}
+
+.main-nav {
+  background-color: #1a2e61;
+  margin: auto 0 auto auto;
+  padding: 16px 32px;
+  box-shadow: 0 0 20px 0 rgba(102, 105, 101, 0.63);
+  display: flex;
+}
+.main-nav h1 {
+  font-family: "McLaren", cursive;
+  color: white;
+  font-size: 2rem;
+}
+.main-nav .nav-items{
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+    font-size: 1rem;
+}
+.main-nav .nav-link,a{
+  text-decoration: none;
+    list-style-type: none;
+    padding-right: 10px;
+    color: white;
+}
+
+.second-nav {
+  background-color: #70bad8;
+  margin: auto 0 auto auto;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  color: #056676;
+  text-align: center;
+}
+.second-nav .nav-items{
+    display: flex;
+    margin: auto;
+    font-weight: 200;
+}
+.link-box{
+  display: flex;
+}
+.second-nav .nav-link{
+  text-decoration: none;
+    list-style-type: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+
+.about-container{
+  background-color: black;
+  width: 100%;
+  background-image: url('./Images/aboutus.jpg');
+  height: 88.5vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.team{
+  width: 25%;
+  background-color: cornsilk;
+  position: relative;
+  height: 100%;
+  margin-left: 75%;
+  color: black;
+  text-align: center;
+}
+.project{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.heading{
+  font-size: 4rem;
+  font-weight: 200;
+  line-height: 2;
+}
+.subheading{
+  line-height: 2;
+}
+.main-heading{
+  font-size: 6rem;
+  font-weight: 200;
+  line-height: 2;
+}
+
+.options-container{
+  margin: 8% auto 0;
+  padding: 60px 0;
+  width: 35%;
+  height: 60vh;
+  text-align: center;
+  box-shadow: 0 0 50px 0 rgba(48, 204, 33, 0.911);
+}
+.options-container button{
+  background-color: black;
+  border: 1px solid rgba(48, 204, 33, 0.911);;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  display: block;
+  margin: 20px auto;
+}
+
+.newEntry-container{
+  margin: 5% auto 0;
+  padding: 60px 0;
+  width: 75%;
+  height: 205vh;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(70, 71, 70, 0.911);
+}
+.entry-label {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 2;
+}
+.part{
+  padding: 0 150px 0 120px;
+  text-align: left;
+}
+.newEntry-container input{
+  display: block;
+  width: 150%;
+  font-size: 15px;
+}
+.entry-button{
+  width: 30%;
+  height: 7vh;
+  margin: 50px auto;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.locality-container{
+  margin: 5% auto;
+  text-align: center;
+}
+.detail-heading{
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.searchBox-container{
+  width: 75%;
+  height: 50vh;
+  margin: 5% auto;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 0 8px 0 rgba(70, 71, 70, 0.911);
+}
+
+.opening-nav {
+  height: 10vh;
+  background-color: #1a2e61;
+  margin: auto 0 auto auto;
+  padding: 16px 32px;
+  box-shadow: 0 0 20px 0 rgba(102, 105, 101, 0.63);
+}
