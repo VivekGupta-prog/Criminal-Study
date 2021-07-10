@@ -4,4 +4,5 @@ A web app developed using MERN Stack. It provides organized details of the crimi
 
 Technology Used: MERN Stack, Python, ML
 
-Contributors: Vivek Gupta, Akshat Upadhyay, Pyush Kumar Gupta
+The project was build under the College minor proect program and the major contributors were -
+*Vivek Gupta, Akshat Upadhyay, Pyush Kumar Gupta*
